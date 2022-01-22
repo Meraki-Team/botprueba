@@ -1,5 +1,5 @@
-const accountSid = "xxxxxxxxxxxx";
-const authToken = "xxxxxxxxxx";
+const accountSid = "ACf924fd244e0f77ead07006ce745bdffb";
+const authToken = "533f239726f42449db14836405c6e298";
 const client = require("twilio")(accountSid, authToken);
 
 function sendTextMessage(sender, message) {
@@ -15,6 +15,7 @@ function sendTextMessage(sender, message) {
   });
 }
 
+sendTextMessage("59898059701", "aalalalalala");
 module.exports = {
   sendTextMessage,
 };

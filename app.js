@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const twilio = require("./config");
+const twilio = require("./twilio");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
